@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.env
+venv/
+.venv/
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Large raw files — NOT committed
+city_day.csv.zip
+station_day.csv
+station_hour.csv
+
+# city_day.csv IS committed (small enough, needed for Streamlit Cloud)
+# Do NOT add city_day.csv here
